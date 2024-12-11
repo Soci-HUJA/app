@@ -1,0 +1,41 @@
+{
+  "id": "f7cff9c3-e823-4335-9e29-2b798ff2e645",
+  "name": "Barcode Generator",
+  "publisher": "SOCITAS",
+  "version": "20.0.0.0",
+  "brief": "Barcode Generator",
+  "description": "Barcode Generator",
+  "privacyStatement": "http://www.socitas.de",
+  "EULA": "http://www.socitas.de",
+  "help": "http://www.socitas.de",
+  "url": "http://www.socitas.de",
+  "contextSensitiveHelpUrl": "http://www.socitas.de",
+  "logo": "res/logo.png",
+  "application": "20.0.0.0",
+  "platform": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 91200,
+      "to": 91250
+    }
+  ],
+  "dependencies": [],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "9.0",
+  "target": "OnPrem",
+  "features": [
+    "TranslationFile",
+    "NoImplicitWith"
+  ],
+  "supportedLocales": [
+    "en-US",
+    "de-DE"
+  ],
+  "suppressWarnings": [
+    "AS0092"
+  ]
+}
