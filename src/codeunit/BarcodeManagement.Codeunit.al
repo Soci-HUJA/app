@@ -15,7 +15,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeAztecAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -40,7 +40,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeCall1DAAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -65,7 +65,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeCodabarAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -90,7 +90,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeCode128AsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -115,7 +115,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="IsGS1">Boolean.</param>
     procedure CreateBarcodeEncodeCode128_GS1_AsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC"; IsGS1: boolean)
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -140,7 +140,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeCode39AsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -165,7 +165,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeCode93AsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -190,7 +190,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeDataMatrixAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -215,7 +215,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeEAN13AsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -240,7 +240,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeEAN8AsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -265,7 +265,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeITFAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -290,7 +290,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeMaxicodeAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -315,7 +315,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeMSIAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -340,7 +340,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodePDF417AsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -365,7 +365,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodePlesseyAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -390,7 +390,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeQRCodeAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -415,7 +415,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeRSS14AsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -440,7 +440,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeRSSExpandedAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -465,7 +465,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeUPCAAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -490,7 +490,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeUPCEANExtensionAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore
@@ -515,7 +515,7 @@ codeunit 91200 "Barcode Management SOC"
     /// <param name="BarcodeBlobSOC">VAR Record "Barcode Blob SOC".</param>
     procedure CreateBarcodeEncodeUPCEAsBlob(Width: Integer; Height: Integer; Margin: Integer; Value: Text; Rotation: Integer; PureBarcode: Boolean; var BarcodeBlobSOC: Record "Barcode Blob SOC")
     var
-#pragma warning disable
+
         WrapperSOC: DotNet WrapperSOC;
         MemoryStreamSOC: DotNet MemoryStreamSOC;
 #pragma warning restore

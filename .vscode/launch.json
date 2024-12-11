@@ -1,0 +1,71 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Your own server",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://so-vm-soci-migr",
+            "serverInstance": "BC240Migr",
+            "authentication": "Windows",
+            // "startupObjectId": 22,
+            // "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "schemaUpdateMode": "Synchronize",
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true
+        },
+        {
+            "name": "Your own server",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://so-vm-soci-migr",
+            "serverInstance": "BC240Migr",
+            "authentication": "Windows",
+            "breakOnError": "All",
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "breakOnNext": "WebClient"
+        },
+        {
+            "name": "HUJA Docker",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "https://docker.socitas.de",
+            "serverInstance": "soci-huja-23-5-dev",
+            "authentication": "UserPassword",
+            //"startupObjectId": 22,
+            //"startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true,
+            "port": 56565,
+            "schemaUpdateMode": "ForceSync"
+            //"schemaUpdateMode": "ForceSync"
+        },
+        {
+            "name": "Docker debug",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "https://docker.socitas.de",
+            "serverInstance": "soci-huja-23-5-dev",
+            "authentication": "UserPassword",
+            "breakOnError": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+           "breakOnNext": "WebClient"
+        }
+    ]
+}
